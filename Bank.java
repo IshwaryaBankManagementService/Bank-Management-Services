@@ -92,7 +92,7 @@ public class Bank {
         Statement stat;
         String host = "jdbc:mysql://localhost:3306/easybank";
         String uName = "root";
-        String uPass = "Saipr1812!";
+        String uPass = *****;
         Connection con = DriverManager.getConnection(host, uName, uPass);
         stat = con.createStatement();
         return stat;
